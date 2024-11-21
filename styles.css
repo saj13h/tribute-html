@@ -2,6 +2,11 @@ body{
     background-color: #E4F2E7;
     margin: 0px
   }
+  @media (max-width:300px){
+    img{
+      width: 100%;
+    }
+  }
   main{
     font-family: Verdana, sans-serif;
     font-size: 16px;
@@ -30,7 +35,6 @@ body{
     margin-bottom: .5em;
     margin-left: auto;
     margin-right:auto;
-    max-width: 100%
   }
   
   
